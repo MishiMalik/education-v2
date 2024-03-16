@@ -42,7 +42,7 @@
                     </div>
                     <h1 class="top-heading mb-4">Select Meeting Type</h1>
                     <div class="row justify-content-center ">
-                        <div class="col-lg-3 mb-3">
+                        <div class="col-lg-3 col-11 mx-auto  mb-3">
                             <div class="meeting-type d-flex  flex-column  align-items-center meeting-type-selected"  onclick="meeting('Online')">
                                 <h3 class="text-center ">Online</h3>
                                 <div class="mx-auto mt-4">
@@ -102,7 +102,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-3 mb-3">
+                        <div class="col-lg-3 col-11 mx-auto  mb-3">
                             <div class="meeting-type d-flex  flex-column  align-items-center "  onclick="meeting('Onsite')">
                                 <h3 class="text-center ">Onsite</h3>
 
