@@ -67,6 +67,7 @@
                                             <option value="">10/5/2024</option>
                                         </select>
                                         <button class="btn btn-primary ms-3">Search</button>
+                                        <button class="btn bg-gray text-white  ms-3">Reset</button>
                                     </div>
 
                                 </div>
