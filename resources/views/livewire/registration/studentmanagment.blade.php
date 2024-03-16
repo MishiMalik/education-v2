@@ -339,7 +339,7 @@
                                 </select>
                             </div>
                             <div class="col-lg-6 mb-3">
-                                        <label class="control-label mb-2 mt-2 col-sm-10 ">Interested Country <span
+                                        <label class="control-label mb-2 mt-2 col-sm-10 ">Interested2 Country <span
                                                 class="text-danger">*</span></label>
                                         <select class="js-sm-table-basic-multiple w-100 form-select" id="select2"
                                             name="states[]" multiple="multiple">
