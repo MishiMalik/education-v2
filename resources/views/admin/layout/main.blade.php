@@ -103,9 +103,11 @@
         <script>
             $("#view").on("shown.bs.modal", function () {
 console.log("view")
-                $('#select2').select2({
-                    dropdownParent: $('#view .modal-content form .modal-body .container .row .col-lg-6')
+setTimeout(function() {
+    $('#select2').select2({
+                    dropdownParent: $('#view .modal-dialog .modal-content form .modal-body .container .row .col-lg-6')
                 });
+}, 1000)
                 // $.fn.modal.Constructor.prototype.enforceFocus = function() {};
             })
 
