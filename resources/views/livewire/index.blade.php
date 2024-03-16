@@ -60,14 +60,15 @@
                                     <h5 class="card-header px-0 bg-white border-bottom-0 py-0   mb-md-2 mb-3">
                                         Appointments</h5>
                                     <div class=" w-auto mb-2 d-flex align-items-center">
-                                        <select class="form-select form-select-md w-100" style="min-width: 160px;">
+<input type="date" class="form-control ">
+                                        <!-- <select class="form-select form-select-md w-100" style="min-width: 160px;">
                                             <option selected>Select Date</option>
                                             <option value="">12/5/20224</option>
                                             <option value="">11/5/2024</option>
                                             <option value="">10/5/2024</option>
-                                        </select>
-                                        <button class="btn btn-primary ms-3">Search</button>
-                                        <button class="btn bg-gray text-white  ms-3">Reset</button>
+                                        </select> -->
+                                        <button class="btn btn-primary ms-3">Reset</button>
+                                        <!-- <button class="btn bg-gray text-white  ms-3">Reset</button> -->
                                     </div>
 
                                 </div>

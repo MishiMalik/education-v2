@@ -31,7 +31,7 @@
                         <select class="form-select" name="level" wire:model="role">
                             <option value="">--SELECT--</option>
                             @foreach ($roles as $item)
-                            <option value="{{$item->name}}">{{$item->name}}</option>  
+                            <option value="{{$item->name}}">{{$item->name}}</option>
                             @endforeach
 
                         </select>
@@ -49,6 +49,7 @@
 
     <div class="card  pb-4 px-lg-4 px-2">
         <h5 class="card-header px-0 bg-white border-bottom-0  py-3 mb-2 ">User List</h5>
+<div class="table-responsive">
         <table id="assign" class="table  nowrap border-0 " style="width:100%">
             <thead>
                 <tr class="dt-head">
@@ -64,8 +65,8 @@
             </thead>
             <tbody>
                 @foreach ($show as $key=> $item)
-                    
-               
+
+
                 <tr>
                     <td class="text-center d-flex">{{$key}}</td>
                     <td>{{$item->name}}</td>
@@ -93,6 +94,7 @@
                 @endforeach
             </tbody>
         </table>
+        </div>
     </div>
 
           <!--edit Modal -->
@@ -144,7 +146,7 @@
                                             @foreach ($roles as $item)
                                             <option value="{{$item->name}}">{{$item->name}}</option>
                                             @endforeach
-                
+
                                         </select>
                                         @error('role') <span class="error">{{ $message }}</span> @enderror
                                       </div>
